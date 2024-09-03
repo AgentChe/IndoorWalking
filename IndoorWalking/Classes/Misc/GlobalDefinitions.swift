@@ -22,7 +22,7 @@ final class GlobalDefinitions {
     static let contactUsUrl = URL(string: "https://cocorporateapps.com/contacts.html")!
     
     enum Paygate {
-        static let yearly = "train.walking.yearly"
-        static let weekly = "train.walking.weekly"
+        static let defaultLifetime = "train.walking.endless"
+        static let defaultMonthly = "train.walking.monthly"
     }
 }
