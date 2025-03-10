@@ -27,7 +27,6 @@
 		DEA69E2F2BBC088200F22742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA69E2E2BBC088200F22742 /* Assets.xcassets */; };
 		DEA69E322BBC088200F22742 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DEA69E312BBC088200F22742 /* Base */; };
 		DEA69FF22BBC0B0600F22742 /* AmplitudeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA69E3A2BBC0B0600F22742 /* AmplitudeManager.swift */; };
-		DEA69FF32BBC0B0600F22742 /* BranchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA69E3B2BBC0B0600F22742 /* BranchManager.swift */; };
 		DEA69FF42BBC0B0600F22742 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA69E3C2BBC0B0600F22742 /* FacebookManager.swift */; };
 		DEA69FF52BBC0B0600F22742 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA69E3D2BBC0B0600F22742 /* FirebaseManager.swift */; };
 		DEA69FF62BBC0B0600F22742 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA69E3F2BBC0B0600F22742 /* ImagePicker.swift */; };
@@ -355,7 +354,6 @@
 		DEA69E312BBC088200F22742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEA69E332BBC088200F22742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEA69E3A2BBC0B0600F22742 /* AmplitudeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
-		DEA69E3B2BBC0B0600F22742 /* BranchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchManager.swift; sourceTree = "<group>"; };
 		DEA69E3C2BBC0B0600F22742 /* FacebookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
 		DEA69E3D2BBC0B0600F22742 /* FirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		DEA69E3F2BBC0B0600F22742 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -800,7 +798,6 @@
 			isa = PBXGroup;
 			children = (
 				DEA69E3A2BBC0B0600F22742 /* AmplitudeManager.swift */,
-				DEA69E3B2BBC0B0600F22742 /* BranchManager.swift */,
 				DEA69E3C2BBC0B0600F22742 /* FacebookManager.swift */,
 				DEA69E3D2BBC0B0600F22742 /* FirebaseManager.swift */,
 			);
@@ -2564,7 +2561,6 @@
 				DEA6A02A2BBC0B0600F22742 /* DrillsViewController.swift in Sources */,
 				DEA6A0F22BBC0B0600F22742 /* GetPlanResponse.swift in Sources */,
 				DEA6A0012BBC0B0600F22742 /* ScreenPreloader.swift in Sources */,
-				DEA69FF32BBC0B0600F22742 /* BranchManager.swift in Sources */,
 				DEA6A11B2BBC0B0600F22742 /* GetWorkoutTemplateResponse.swift in Sources */,
 				DEA6A1072BBC0B0600F22742 /* IAPManager.swift in Sources */,
 				DEA6A08E2BBC0B0600F22742 /* ProfileCalendarView.swift in Sources */,
@@ -2729,7 +2725,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z2WD4P9PA4;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2744,7 +2740,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4.0;
+				MARKETING_VERSION = 1.4.1;
 				PRODUCT_BUNDLE_IDENTIFIER = train.walking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2767,7 +2763,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z2WD4P9PA4;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2782,7 +2778,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.4.0;
+				MARKETING_VERSION = 1.4.1;
 				PRODUCT_BUNDLE_IDENTIFIER = train.walking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
